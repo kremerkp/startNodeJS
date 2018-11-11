@@ -32,6 +32,6 @@ module.exports = function() {
   });
   console.log(result);
   _.times(5, function(index) {
-    console.log(`what is the index? ... it is $index` + index);
+    console.log(`Index is: ${index}`);
   });
 };
