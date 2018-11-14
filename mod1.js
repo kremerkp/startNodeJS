@@ -7,5 +7,5 @@ var server = http.createServer(function(request, response) {
   response.write();
   response.end();
 });
-
+console.log("test");
 server.listen(3000);
